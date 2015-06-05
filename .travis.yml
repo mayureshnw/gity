@@ -1,4 +1,8 @@
 language: python
 python:
-  - "2.7"
-  - "nightly"
+  - 2.7
+
+before install:
+  - sudo apt-get update
+script:
+  - nosetests  
