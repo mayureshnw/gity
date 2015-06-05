@@ -1,7 +1,6 @@
-![](http://i.imgur.com/y8g506n.png?1)
-
 # gity
 
+```
         _ _         
    __ _(_) |_ _   _ 
   / _` | | __| | | |
@@ -9,7 +8,7 @@
   \__, |_|\__|\__, |
   |___/       |___/ 
 
-
+```
 The git magician for python. gity makes using git commands in python, a piece of cake.
 
 
