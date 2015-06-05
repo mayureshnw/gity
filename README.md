@@ -18,6 +18,8 @@ Python doesnt have a builtin module and with the existing ones it requires treme
 
 Things shouldn't be this way. Not in Python.
 
+![](http://i.imgur.com/Qn2jHxx.gif)
+
 ## Features
 
 - Written in uncomplicated Python
