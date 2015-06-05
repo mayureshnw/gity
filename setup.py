@@ -10,7 +10,7 @@ setup(
     author='Mayuresh Waykole',
     author_email='mayuresh2212@gmail.com',
     description='The Git magician for Python',
-    long_description=open(README.md).read(),
+    long_description=open('README.md').read(),
     packages=['gity'],
     include_package_data=True,
     platforms='any',

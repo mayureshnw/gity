@@ -21,7 +21,6 @@ Things shouldn't be this way. Not in Python.
 
 - Written in uncomplicated Python
 - Easy to [install](https://github.com/mnw2212/gity#installation)
-- Stupidly [easy to use](https://github.com/mnw2212/gity#usage)
 - Works on Linux and Mac
 
 ## Current Support
@@ -33,7 +32,6 @@ Things shouldn't be this way. Not in Python.
 - git push
 - git pull
 - git checkout
-- git reset head
 
 ## Installation
 
@@ -64,7 +62,7 @@ PRs are welcome. To begin developing, follow this:
 
 ```bash
 # make virtual env
-$ git clone --recursive git@github.com:mnw2212/gity.git
+$ git clone --recursive git@github.com:Mnw2212/gity.git
 $ cd gity/
 $ python gity/gity.py
 ```
