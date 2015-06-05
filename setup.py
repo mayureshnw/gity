@@ -1,17 +1,16 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
 
-long_description = read('README.txt')
+version = 0.0.1
 
 setup(
     name='gity',
-    version=sandman.__version__,
+    version=version,
     url='https://github.com/mnw2212/gity',
-    download_url = '',
     license='MIT',
     author='Mayuresh Waykole',
     author_email='mayuresh2212@gmail.com',
     description='The Git magician for Python',
-    long_description=long_description,
+    long_description=open(README.md).read(),
     packages=['gity'],
     include_package_data=True,
     platforms='any',

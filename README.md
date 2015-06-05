@@ -11,7 +11,11 @@
 ```
 The git magician for python. gity makes using git commands in python, a piece of cake.
 
+Most existing Python modules for for interacting with git repositories are extremely verbose and cumbersome. 
 
+Python doesnt have a builtin module and with the existing ones it requires tremendous amount of documentation digging to get hold of the simplest functions.
+
+Things shouldn't be this way. Not in Python.
 
 ## Features
 
@@ -29,7 +33,7 @@ The git magician for python. gity makes using git commands in python, a piece of
 - git push
 - git pull
 - git checkout
-
+- git reset head
 
 ## Installation
 
@@ -47,8 +51,6 @@ $ git clone --recursive git@github.com:mnw2212/gity.git
 $ cd gity/
 $ python setup.py install
 ```
-
-
 
 ## Contributing
 
