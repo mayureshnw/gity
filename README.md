@@ -1,4 +1,5 @@
-# gity
+# gity 
+[![Build Status](https://travis-ci.org/Mnw2212/gity.svg?branch=master)](https://travis-ci.org/Mnw2212/gity)
 
 ```
         _ _         
