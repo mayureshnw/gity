@@ -156,7 +156,7 @@ class gity:
 		#	-> Add only specified files while ignoring deletion
 			if files==[]:
 				try:
-					args = ["git","add","--no-all"]
+					args = ["git","add",".","--ignore-removal"]
 					state = subprocess.call(args)
 					status = True
 					print "Added all the files except deletions"
