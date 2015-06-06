@@ -60,7 +60,7 @@ class gity:
 	def setRepository(self,repo):
 		"""(gity object,str) -> NoneType
 		
-		Set password for github account
+		Set path to repository
 		"""
 		try:
 			assert type(repo) == str
