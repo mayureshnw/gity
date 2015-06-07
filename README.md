@@ -53,6 +53,16 @@ $ cd gity/
 $ python setup.py install
 ```
 
+## Usage
+```python
+from gity import gity
+
+obj = gitt()
+obj.git_add(deletion=True)
+message = "inital commit"
+obj.git_commit(message)
+```
+
 ## Contributing
 
 #### Bug Reports & Feature Requests
