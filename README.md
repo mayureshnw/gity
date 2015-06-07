@@ -57,7 +57,7 @@ $ python setup.py install
 ```python
 from gity import gity
 
-obj = gitt()
+obj = gity()
 obj.git_add(deletion=True)
 message = "inital commit"
 obj.git_commit(message)
