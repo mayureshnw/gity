@@ -33,7 +33,7 @@ class gity:
 		else:
 			raise Exception("Expected String")
 
-	def setUser(self,user):
+	def set_user(self,user):
 		"""(gity object,str) -> NoneType
 		
 		set user value to entered String
@@ -45,7 +45,7 @@ class gity:
 			raise Exception("Expected String")
 		
 
-	def setPassword(self,paswd):
+	def set_password(self,paswd):
 		"""(gity object,str) -> NoneType
 		
 		Set password for github account
@@ -57,7 +57,7 @@ class gity:
 			raise Exception("Expected String")
 
 
-	def setRepository(self,repo):
+	def set_repository(self,repo):
 		"""(gity object,str) -> NoneType
 		
 		Set path to repository
@@ -69,7 +69,7 @@ class gity:
 		except:
 			raise Exception("Expected String")
 
-	def gitInit(self):
+	def git_init(self):
 		"""(gity object) -> bool
 
 		Initalizes git repository at specified path 
@@ -84,7 +84,7 @@ class gity:
 
 		return status
 
-	def gitClone(self,url,arg=''):
+	def git_clone(self,url,arg=''):
 		"""(gity object, str, str) -> bool
 		Clones a repository into a newly created directory (path taken from self.repo ), 
 		creates remote-tracking branches for each branch in the cloned repository
@@ -101,7 +101,7 @@ class gity:
 		return status
 
 
-	def gitStatus(self):
+	def git_status(self):
 		"""(gity object) -> str
 		
 		Executes command "git status" on command line 
@@ -118,7 +118,7 @@ class gity:
 
 		return status
 
-	def gitAdd(self,files=[],deletion=False):
+	def git_add(self,files=[],deletion=False):
 		"""(gity object, list, bool) -> bool
 
 		Add multiple files in directory.
@@ -129,13 +129,13 @@ class gity:
 			All files in the directory will be added
 			Deleted files will not be tracked/added
 
-		gitAdd can :
+		git_add can :
 			-> Add multiple files while ignoring deletion
 			-> Add/Track all files including deleted
 		"""
 
 		try:
-		# Check if arguments match the exoected type
+		# Check if arguments match the expected type
 			assert type(files) == list
 			assert type(deletion) == bool
 		except:
@@ -179,7 +179,7 @@ class gity:
 			return status
 
 
-	def gitCommit(self,message):
+	def git_commit(self,message):
 		"""(gity object,str) -> bool
 
 		Returns True if commit is succesful
@@ -197,7 +197,7 @@ class gity:
 
 		return status
 
-	def gitPush(self,remoteName='origin',branchName='master'):
+	def git_push(self,remoteName='origin',branchName='master'):
 		""" (gity object, str, str) -> bool
 
 		Default:
@@ -216,7 +216,7 @@ class gity:
 
 		return status
 
-	def gitPull(self):
+	def git_pull(self):
 		"""(gity object) -> bool 
 
 		Executes git pull on the mentioned repository
@@ -231,7 +231,7 @@ class gity:
 			
 		return status
 
-	def gitCheckout(self,branch):
+	def git_checkout(self,branch):
 		"""
 
 		Executes git checkout to switch to given branch
